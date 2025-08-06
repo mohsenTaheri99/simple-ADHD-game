@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ADHD GAME!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>ADHD Game</header>
+    <section>
+      <div class="questionMark cursorC" id="qm">?</div>
+      <div class="info" id="info">
+        <div class="flex">
+          <div class="left box-t" id="left"></div>
+          <div class="right box-t" id="right"></div>
+        </div>
+        <button class="nextB cursorC" id="exit">exit</button>
+      </div>
+      <div id="timer">10</div>
+      <div class="score">
+        <span>score:</span>
+        <div id="score"></div>
+      </div>
+      <div id="hears" class="">
+        <div id="h1" class="hearbox"></div>
+        <div id="h2" class="hearbox"></div>
+        <div id="h3" class="hearbox"></div>
+      </div>
+      <h1 id="level"></h1>
+      <div class="question">
+        <h1>question</h1>
+        <div class="box" id="qu"></div>
+      </div>
+      <div class="answer">
+        <h1>answer</h1>
+        <div class="box" id="box-answer"></div>
+      </div>
+      <div class="control">
+        <div class="box" id="box-ctrl">
+          <div class="item cursorC" id="delete">delete</div>
+        </div>
+      </div>
+    </section>
+    <footer>created by me</footer>
+    <script src="index.js"></script>
+  </body>
+</html>
